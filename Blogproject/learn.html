@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Clock</title>
+        <script src="learn.js"></script>
+      <link rel="stylesheet" href="learn.css">
+      
+    </head>
+    <body onload="setInterval('updateClock()', 200);">
+        <h1 id="clock"></h1>
+
+        <div id="formcontainer">
+          <h2 class="title"> Home Learning To Do List </h2>
+          <label for="inputnewlist"> Add To List</label>
+          <input type="text" name="inputnewlist" id="inputnewlist" placeholder="Add thing to do..">
+          <button class="addbutton">Add</button>
+        </div>
+        <ul id="mylist">
+          <li> Learn the DOM <span class="exit"></span></li>
+        </ul>
+
+        <div class="container">
+          <div class="main">
+          <h2>Javascript Login Form Validation</h2>
+          <form id="form_id" method="post" name="myform">
+          <label>User Name :</label>
+          <input type="text" name="username" id="username"/>
+          <label>Password :</label>
+          <input type="password" name="password" id="password"/>
+          <input type="button" value="Login" id="submit" onclick="validate()"/>
+          </form>
+          <span><b class="note">Note : </b>Use the following username and password. <br/><b class="valid">User Name : Pineapple<br/>Password : Det099</b></span>
+          </div>
+          </div>   
+
+          
+          <div class= "contain">
+           <div class="lorem">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur reprehenderit doloremque hic sunt atque facere ullam, voluptatibus itaque error culpa amet similique nam id libero, cumque quis provident veritatis. Ea?
+          </p>
+           </div>
+           <div class ="ipsum">
+            <p>
+              Let them go
+            </p>
+           </div>
+           <div class="dolor">
+            <p>
+              Sorry Boo
+            </p>
+           </div>
+          </div>
+
+    </body>
+</html>
